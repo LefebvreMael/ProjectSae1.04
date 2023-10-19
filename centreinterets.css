@@ -1,0 +1,51 @@
+main{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+h1 {
+    flex-basis: 100%;
+    text-align: center;
+    background-color: blueviolet;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+
+h2{
+    flex-basis: 100%;
+    background-color: cadetblue;
+    margin-top: 0px;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.titre1 {
+    text-decoration: underline;
+}
+
+.A1 {
+    background-color: rgba(127, 255, 212, 0.761);
+    flex-basis: calc(100%/0.9);
+}
+
+h3{
+    flex-basis: 100%;
+    background-color: blueviolet;
+    color: white;
+}
+
+.boutton {
+    background-color: azure;
+}
+
+video{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0px auto;
+}
