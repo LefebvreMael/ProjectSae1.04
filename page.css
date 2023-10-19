@@ -1,0 +1,50 @@
+main{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+
+h1{
+    background-color:darkcyan;
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 0px;
+    color: azure;
+}
+
+h2{
+    background-color:darkslateblue;
+    text-align: center;
+    flex-basis: 100%;
+    margin-top: 3px;
+    color: azure;
+    margin-bottom: 2%;
+}
+
+section{
+    margin-top: 0px;
+    flex-basis: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.titre1{
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+p{color: black;}
+
+h3{
+    background-color: darkcyan;
+    color: azure;
+    flex-basis: 100%;
+    padding: 1%;
+}
+
+.boutton{
+    background-color: azure;
+}
