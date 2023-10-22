@@ -6,7 +6,7 @@ main{
 }
 
 h1{
-    background-color:darkcyan;
+    background-color:rgb(104, 93, 121);
     flex-basis: 100%;
     text-align: center;
     margin-bottom: 0px;
@@ -14,11 +14,10 @@ h1{
 }
 
 h2{
-    background-color:darkslateblue;
+    background-color:rgb(171, 108, 130);
     text-align: center;
     flex-basis: 100%;
     margin-top: 3px;
-    color: azure;
     margin-bottom: 2%;
 }
 
@@ -28,7 +27,7 @@ section{
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    background-color: aquamarine;
+    background-color: rgb(71, 92, 122);
 }
 
 .titre1{
@@ -39,12 +38,17 @@ section{
 p{color: black;}
 
 h3{
-    background-color: darkcyan;
+    background-color: rgb(104, 93, 121);
     color: azure;
     flex-basis: 100%;
     padding: 1%;
 }
 
 .boutton{
-    background-color: azure;
+    background-color: rgba(240, 255, 255, 0.429);
+    margin-top: 1px ;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
 }
