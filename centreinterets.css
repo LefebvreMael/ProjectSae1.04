@@ -8,14 +8,14 @@ main{
 h1 {
     flex-basis: 100%;
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgb(104, 93, 121);
     margin-top: 0px;
     margin-bottom: 3px;
 }
 
 h2{
     flex-basis: 100%;
-    background-color: cadetblue;
+    background-color: rgb(171, 108, 130);
     margin-top: 0px;
 }
 
@@ -30,18 +30,18 @@ section{
 }
 
 .A1 {
-    background-color: rgba(127, 255, 212, 0.761);
+    background-color: rgb(71, 92, 122);
     flex-basis: calc(100%/0.9);
 }
 
 h3{
     flex-basis: 100%;
-    background-color: blueviolet;
+    background-color: rgb(104, 93, 121);
     color: white;
 }
 
 .boutton {
-    background-color: azure;
+    background-color: rgba(240, 255, 255, 0.62);
 }
 
 video{
