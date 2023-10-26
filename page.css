@@ -67,6 +67,10 @@ button:active {
     transform: translateY(-1px);
 }
 
-body{
-    background-color: rgb(255, 255, 255);
+body {
+    background-image: url(backscreen.jpeg);
+}
+
+.p1 {
+    color: aliceblue;
 }
