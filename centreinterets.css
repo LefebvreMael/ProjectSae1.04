@@ -25,6 +25,9 @@ section{
     flex-flow: row wrap;
     justify-content: space-around;
 }
+body {
+    background-image: url(backscreen.jpeg);
+}
 
 .titre1 {
     text-decoration: underline;
