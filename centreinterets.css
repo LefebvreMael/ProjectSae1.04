@@ -3,6 +3,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     margin: 0px auto;
+    border-radius: 3px;
 }
 
 h1 {
@@ -11,6 +12,9 @@ h1 {
     background-color: rgb(104, 93, 121);
     margin-top: 0px;
     margin-bottom: 3px;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 1%;
 }
 
 h2{
@@ -18,30 +22,39 @@ h2{
     background-color: rgb(171, 108, 130);
     margin-top: 0px;
     margin-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 1%;
 }
 
 section{
+    font-size: 16px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-}
-body {
-    background-image: url(backscreen.jpeg);
+    border-radius: 10px;
+    background-color: rgb(71, 92, 122);
 }
 
 .titre1 {
     text-decoration: underline;
+    font-size: 120%;
 }
 
 .A1 {
     background-color: rgb(71, 92, 122);
     flex-basis: calc(100%/0.9);
+    padding: 1%;
+    font-size: 120%; 
+    border-radius: 10px;
 }
 
 h3{
     flex-basis: 100%;
     background-color: rgb(104, 93, 121);
-    color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
 }
 
 button{
@@ -53,6 +66,8 @@ button{
     transition: all 0.3s ease 0s;
     cursor: pointer;
     box-shadow: 0px 5px 7.5px aliceblue;
+    margin-bottom: 7px;
+    font-size: 65%;
 
 }
 
@@ -72,3 +87,8 @@ video{
     flex-wrap: wrap;
     margin:0px auto;
 }
+
+body {
+    background-image: url(backscreen.jpeg);
+}
+
