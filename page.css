@@ -9,8 +9,10 @@ h1{
     background-color:rgb(104, 93, 121);
     flex-basis: 100%;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 1%;
     color: azure;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 h2{
@@ -19,6 +21,7 @@ h2{
     flex-basis: 100%;
     margin-top: 3px;
     margin-bottom: 2%;
+    border-radius: 10px;
 }
 
 section{
@@ -28,6 +31,9 @@ section{
     flex-flow: row wrap;
     justify-content: space-around;
     background-color: rgb(71, 92, 122);
+    padding: 1%;
+    font-size: 120%;
+    border-radius: 10px;
 }
 
 .titre1{
@@ -39,9 +45,10 @@ p{color: black;}
 
 h3{
     background-color: rgb(104, 93, 121);
-    color: azure;
+    color: rgb(0, 0, 0);
     flex-basis: 100%;
     padding: 1%;
+    border-radius: 10px;
 }
 
 button{
@@ -53,6 +60,8 @@ button{
     transition: all 0.3s ease 0s;
     cursor: pointer;
     box-shadow: 0px 5px 7.5px aliceblue;
+    margin-bottom: 7px;
+    font-size: 65%;
 
 }
 
@@ -67,10 +76,18 @@ button:active {
     transform: translateY(-1px);
 }
 
+body{
+    background-color: rgb(255, 255, 255);
+}
+
 body {
     background-image: url(backscreen.jpeg);
 }
 
 .p1 {
     color: aliceblue;
+}
+
+.A1 {
+    font-size: 120%;
 }
