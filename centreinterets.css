@@ -33,6 +33,7 @@ section{
     flex-flow: row wrap;
     justify-content: space-around;
     border-radius: 10px;
+    font-size: 120%;
     background-color: rgb(71, 92, 122);
 }
 
