@@ -3,6 +3,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     margin: 0px auto;
+    color: rgb(255, 255, 255);
 }
 
 h1{
