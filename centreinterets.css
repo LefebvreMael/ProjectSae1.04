@@ -55,14 +55,14 @@ section{
 h3{
     flex-basis: 100%;
     background-color: rgb(104, 93, 121);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     text-align: center;
 }
 
 button{
     padding: 5px;
-    color: black;
+    color: rgb(0, 0, 0);
     background-color: aliceblue;
     border: none;
     border-radius: 20px;
