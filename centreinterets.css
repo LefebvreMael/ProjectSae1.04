@@ -4,6 +4,7 @@ main{
     flex-wrap: wrap;
     margin: 0px auto;
     border-radius: 3px;
+    color: rgb(255, 255, 255);
 }
 
 h1 {
